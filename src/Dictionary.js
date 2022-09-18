@@ -7,8 +7,8 @@ export default function Dictionary() {
   let [definition, setDefinition] = useState(null);
 
   function handleResponse(response) {
-    console.log(response.data[0].meanings[0].definitions);
-	setDefinition(response.data[0])
+    console.log(response.data[0]);
+    setDefinition(response.data[0]);
   }
 
   function handleSearch(event) {
@@ -28,7 +28,7 @@ export default function Dictionary() {
       <form onSubmit={handleSearch}>
         <input type="search" autoFocus={true} onChange={handleWordChange} />
       </form>
-	  <Definitions definition={definition}/>
+      <Definitions definitions={definition} />
     </div>
   );
 }
