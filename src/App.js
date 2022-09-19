@@ -13,7 +13,7 @@ function App() {
         <footer className="App-footer">
           <small>
             Coded by{" "}
-            <a href="https://github.com/Mercy-Kanyi/Dictionary_project">
+            <a href="https://github.com/Mercy-Kanyi/Dictionary_project" target="_blank">
               Mercy Kanyi
             </a>
           </small>
