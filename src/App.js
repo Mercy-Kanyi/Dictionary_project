@@ -1,13 +1,16 @@
-import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
+import "./App.css";
 import Dictionary from "./Dictionary";
+import dictionary from "./Images/dictionary.png"
 
 function App() {
   return (
-    <div className="App">
+    <div className="App m-4 p-3">
       <div className="container">
-        <header className="App-header">Dictionary</header>
-        <Dictionary />
+        <header className="App-header">
+          <img src={dictionary} className="dictionary-image img-fluid w-25" alt="dictionary"/>
+        </header>
+        <Dictionary defaultWordSearch="code"/>
         <footer className="App-footer">
           <small>
             Coded by{" "}
