@@ -1,6 +1,7 @@
 import React from "react";
 import Meaning from "./Meaning";
 import Phonetics from "./Phonetics";
+import "./Defintions.css"
 
 export default function Definitions(props) {
   if (props.definitions) {

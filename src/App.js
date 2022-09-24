@@ -10,7 +10,7 @@ function App() {
         <header className="App-header">
           <img src={dictionary} className="dictionary-image img-fluid w-25" alt="dictionary"/>
         </header>
-        <Dictionary defaultWordSearch="code"/>
+        <Dictionary defaultWordSearch="sunrise"/>
         <footer className="App-footer">
           <small>
             Coded by{" "}
