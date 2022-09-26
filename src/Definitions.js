@@ -1,11 +1,10 @@
 import React from "react";
 import Meaning from "./Meaning";
 import Phonetics from "./Phonetics";
-import "./Defintions.css"
+import "./Definitions.css"
 
 export default function Definitions(props) {
   if (props.definitions) {
-    //console.log(props.definitions);
     return (
       <div className="Definitions">
         <section>
